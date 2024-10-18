@@ -1,0 +1,299 @@
+@font-face {
+    font-family: Playball-Regular;
+    src: url(./font/Playball-Regular.ttf);
+}
+@font-face {
+    font-family: karantina-Regular;
+    src: url(./font/Karantina-Regular.ttf);
+}
+@font-face {
+    font-family: PirataOne-Regular;
+    src: url(./font/PirataOne-Regular.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    background-color: rgb(246, 219, 219);
+    background-size: cover;
+    background-image: url("./image/coffee_image1.png");
+}
+.logo{
+    width: 73px;
+    position: fixed;
+    z-index: 100;
+    top: 0px;
+    left: 0px;
+}
+.contact{
+    display: flex;
+    height: 100vh;
+    justify-content:center ;
+    align-items: center;
+    position: relative;
+    top: 60px;
+    
+}
+.contact-form {
+    width: auto;
+    height: 400px;
+    margin-top: 10px;
+    padding: 10px ;
+    
+    
+     background-color: #fae6d1; 
+    text-align: center ;
+    border: 4px solid #553422;
+    border-radius: 21px;
+}
+.submet{
+    padding: 5px;
+    width: 170px;
+    height: 40px;
+    margin: 20px;
+    border: 3px solid rgb(90 78 67 / 83%);
+    border-radius: 10px;
+    background-color: #8b542d;
+}
+.submet:hover{
+    background-color: #100f0fed;
+    cursor: pointer;
+    color: white;
+
+}
+.donne-per{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 8px;
+    width: 500px;
+}
+
+.noir{
+    size: 20px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: 	#714614;
+    position: fixed;
+    z-index: 99;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    /* background-image: url(./); */
+    
+
+}
+.prix{
+    margin-bottom: 12px;
+    color: #f1824e;
+}
+.submet a{
+    
+    border-radius: 2px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #B17457;
+}
+.coffee{
+    display: flex;
+    justify-content: center;
+   
+}
+.café-marque{
+    position: relative;
+    top: 101px;
+}
+.coffee div img{
+    width: 200px;
+
+}
+.gusto ,.grano,.sorbo,.pausa,.aruba,.arabica,.especial,.brasil,.moka{
+    text-align: center;
+    background-color: #f1e2aced;
+    margin: 8px;
+    border-radius: 28px;
+    border: 2px solid #714614;
+}
+.contact-body{
+    background-image:url(./image/ree.png);
+} 
+.moka:hover,.gusto:hover ,.grano:hover,.sorbo:hover,.pausa:hover,.aruba:hover,.arabica:hover,.especial:hover,.brasil:hover{
+    
+    background-color: #cd8d1fed;
+   
+}
+
+.galler{
+    background-color: #FAE6D1;
+    
+    
+} 
+.gallery{
+    /* background-image: url(./Group\ 46.png);  */
+    /* background-color: #FEF3D5; */
+    background-color: #eac3b2;
+    margin-top: 107px;
+    
+}
+
+.img-contact{
+    width: 410px;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+}
+.ca-shop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.cont-us{
+    
+    position: absolute;
+    top: 100px;
+    left: 45%;
+    color: white;
+
+}
+.description{
+    font-family: Playball-Regular;
+    color: #b17457;
+    position: absolute;
+    top: 197px;
+    font-size: large;
+}
+.Shop-description{
+   position: absolute;
+   left: 425px; 
+}
+.p-contact{
+    font-family: Playball-Regular;
+    color: rgb(240, 229, 229);
+    position: absolute;
+    top: 138px;
+    left: 545px;
+    z-index: 1;
+}
+
+.gallery p{
+    color: black;
+    font-family: Playball-Regular;
+}
+.gallery .prix{
+    font-family: Playball-Regular;
+    color: red;
+    padding: 2px;
+}
+.navbar li:hover{
+    background-color: #B17457;
+    border-radius: 4px;
+    text-decoration: none;
+    border-bottom: 2px solid rgb(238, 123, 22);
+}
+span{
+    font-family: karantina-Regular;
+    font-size: 15pt;
+    color: #553422;
+    
+}
+.café-shop{
+    font-size: 40pt;
+    font-weight: bolder;
+    position: relative;
+    left: 500px;
+    margin: 19px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: PirataOne-Regular;
+    
+    margin-left: 60px
+}
+.navbar h1{
+    
+    font-size: 40pt;
+    font-weight: bolder;
+    
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: karantina-Regular;
+    
+    margin-left: 60px;
+}
+.navbar h1 a{
+    text-decoration: none;
+    color: #b99272;
+
+
+}
+
+
+.navbar ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+} 
+
+.navbar ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #b99272;
+    ;
+}
+
+.navbar button{
+    background-color: #b99272;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 13pt;
+   text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    border: none;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.navbar button:hover{
+    background-color: #B17457;
+}
+
+.main {
+    display: flex;
+    height: calc(100vh - 74px);
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    
+    z-index: 1;
+    position: relative; /* Needed for the pseudo-element */
+    padding: 30px;
+}
+
+.main::before {
+    content: '';
+    position: absolute;
+    top: 55px;
+    left: 0;
+    right: 0;
+    bottom: -73px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent dark layer */
+    z-index: -1; /* Puts the layer behind the content */
+}
+
+
+.main h1 {
+    font-family: Playball-Regular;
+    color: #8b542d;
+    /* font-size: 40pt; */
+    font-size: 24pt;
+    position: absolute;
+    top: 77px;
+}
